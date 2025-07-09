@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <title>مطعم الذواقة</title>
+</head>
+
+<body>
+
+    <!-- رأس الصفحة -->
+    <header>
+        <h1>مطعم الذواقة</h1>
+        <p>تجربة طعام لا تُنسى!</p>
+    </header>
+
+    <!-- شريط تنقل -->
+    <nav>
+        <ul>
+            <li><a href="#home">الرئيسية</a></li>
+            <li><a href="#about">من نحن</a></li>
+            <li><a href="#menu">قائمة الطعام</a></li>
+            <li><a href="#reservation">الحجز</a></li>
+            <li><a href="#contact">تواصل معنا</a></li>
+        </ul>
+    </nav>
+
+    <!-- قسم الصفحة الرئيسية -->
+    <section id="home">
+        <h2>مرحبًا بكم في مطعم الذواقة</h2>
+        <p>نقدم أشهى الأطباق الشرقية والغربية باستخدام أجود المكونات.</p>
+        <img src="https://via.placeholder.com/400x200" alt="صورة للمطعم">
+    </section>
+
+    <!-- قسم من نحن -->
+    <section id="about">
+        <h2>من نحن</h2>
+        <p>مطعم الذواقة تأسس عام 2005 ويقدّم تجربة طعام متميزة لكل محبي النكهات الأصلية.</p>
+        <ul>
+            <li>شيفات عالميين</li>
+            <li>مكونات طازجة يوميًا</li>
+            <li>خدمة راقية</li>
+        </ul>
+    </section>
+
+    <!-- قسم قائمة الطعام -->
+    <section id="menu">
+        <h2>قائمة الطعام</h2>
+
+        <h3>المقبلات</h3>
+        <ul>
+            <li>فتوش</li>
+            <li>تبولة</li>
+            <li>ورق عنب</li>
+        </ul>
+
+        <h3>الأطباق الرئيسية</h3>
+        <table border="1">
+            <tr>
+                <th>الطبق</th>
+                <th>الوصف</th>
+                <th>السعر</th>
+            </tr>
+            <tr>
+                <td>مشاوي مشكلة</td>
+                <td>كباب، كفتة، شيش طاووق</td>
+                <td>120 ج.م</td>
+            </tr>
+            <tr>
+                <td>مكرونة بالجمبري</td>
+                <td>مكرونة بصوص الكريمة والجمبري</td>
+                <td>95 ج.م</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- قسم الحجز -->
+    <section id="reservation">
+        <h2>احجز طاولتك</h2>
+        <form action="#" method="post">
+            <label for="name">الاسم:</label><br>
+            <input type="text" id="name" name="name"><br><br>
+
+            <label for="date">التاريخ:</label><br>
+            <input type="date" id="date" name="date"><br><br>
+
+            <label for="time">الوقت:</label><br>
+            <input type="time" id="time" name="time"><br><br>
+
+            <label for="guests">عدد الأشخاص:</label><br>
+            <input type="number" id="guests" name="guests" min="1"><br><br>
+
+            <input type="submit" value="احجز الآن">
+        </form>
+    </section>
+
+    <!-- قسم التواصل -->
+    <section id="contact">
+        <h2>تواصل معنا</h2>
+        <p>العنوان: 123 شارع الطعام، القاهرة</p>
+        <p>الهاتف: 01234567890</p>
+        <p>البريد الإلكتروني: contact@eldwakka.com</p>
+    </section>
+
+    <!-- تذييل الصفحة -->
+    <footer>
+        <p>&copy; 2025 مطعم الذواقة. جميع الحقوق محفوظة.</p>
+    </footer>
+
+</body>
+
+</html>
