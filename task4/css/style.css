@@ -1,0 +1,27 @@
+.div2 {
+    max-width: 500px;
+}
+
+.div2 .form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.div2 label {
+    width: 150px;
+    font-weight: bold;
+}
+
+.div2 input,
+.div2 textarea {
+    flex: 1;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+h1,
+h2 {
+    color: rgb(92, 129, 129);
+}
