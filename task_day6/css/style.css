@@ -1,0 +1,51 @@
+.nav-div .nav-list {
+    padding: 12px 20px;
+    background-color: rgb(82, 82, 82);
+
+    a {
+        color: rgb(250, 248, 246);
+        font-size: large;
+    }
+}
+
+.Home {
+    background-image: url(../images/wallpaperflare.com_wallpaper.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.body {
+    color: rgb(250, 248, 246);
+}
+
+.div2 .form .set .label {
+    color: aliceblue;
+    font-size: x-large;
+
+
+}
+
+.div2 .form {
+    fieldset {
+        position: relative;
+        width: 30%;
+        background-color: rgb(82, 82, 82);
+
+    }
+}
+
+.div2 .form .set {
+
+    input,
+    textarea {
+        width: 70%;
+        padding: 12px 20px;
+    }
+}
+
+.div2 .form .set .head2 {
+    color: aliceblue;
+
+
+}
